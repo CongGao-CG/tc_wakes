@@ -84,8 +84,8 @@ def main():
                   crs=ccrs.PlateCarree())
 
     # save outputs
-    fig.savefig(f"{base}_combined.pdf", dpi=300, bbox_inches="tight")
-    fig.savefig(f"{base}_combined.png", dpi=300, bbox_inches="tight")
+    fig.savefig(f"{base}_track.pdf", dpi=300, bbox_inches="tight")
+    fig.savefig(f"{base}_track.png", dpi=300, bbox_inches="tight")
     plt.close(fig)
 
 if __name__ == "__main__":
